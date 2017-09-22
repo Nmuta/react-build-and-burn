@@ -5,7 +5,7 @@ body {
 }
 
 .btn{
-  background-color: gold;
+  background-color: orange;
   display:block;
   width: 100px;
   margin: 10px auto;
@@ -17,4 +17,24 @@ body {
   height: 300px;
   text-align:center;
   margin: 100px auto;
+}
+
+header, footer{
+  color: black;
+  font-size: 18px;
+  min-height: 20px;
+  width: 100vw;
+  text-align: center;
+  padding: 4px;
+}
+
+footer{
+  background-color: #744;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+}
+
+header{
+  background-color: #944;
 }
